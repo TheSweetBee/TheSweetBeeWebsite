@@ -447,10 +447,13 @@ h1 {
   );
 }
 
-.brand-logo {
-  width: 140px;
-  height: 140px;
-}
+  .brand-logo {
+    width: 260px;
+    max-width: 70vw;
+    height: auto;
+    object-fit: contain;
+  }
+
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
@@ -846,7 +849,6 @@ h1 {
   font-size: 0.82rem;
   color: rgba(75, 58, 53, 0.55);
 }
-
 
 .brand-logo {
   display: block;
