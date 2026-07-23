@@ -853,4 +853,5 @@ h1 {
   width: min(100%, 700px);
   height: auto;
   object-fit: contain;
+  margin: 0 auto;
 }
