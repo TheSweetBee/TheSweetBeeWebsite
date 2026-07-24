@@ -800,14 +800,7 @@ h1 {
 /* ---------- Footer ---------- */
 
 .site-footer {
-    background:
-      repeating-linear-gradient(
-        90deg,
-        #fffefe 0px,
-        #fffefe 22px,
-        #fdf2f5 22px,
-        #fdf2f5 44px
-      );
+  background: #fdf2f5;
   text-align: center;
   padding: 34px 20px 28px;
   margin-top: 0;
