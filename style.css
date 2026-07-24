@@ -81,6 +81,104 @@ h1 {
   font-size: 20px;
 }
 
+/* ---------- Pricing Guide ---------- */
+
+.pricing {
+  background: #fdf0f2;
+}
+
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: var(--white);
+  padding: 26px 34px 34px;
+  border-radius: 24px;
+  text-align: left;
+  box-shadow: 0 12px 30px rgba(75, 58, 53, 0.08);
+}
+
+.pricing-card h3 {
+  margin: 0 0 28px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--brown);
+  position: relative;
+}
+
+.pricing-card h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: #d89aa5;
+  border-radius: 999px;
+  margin: 14px auto 0;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(75, 58, 53, 0.1);
+}
+
+.pricing-item strong {
+  font-size: 1.08rem;
+  color: var(--brown);
+}
+
+.pricing-item span {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--rose);
+}
+
+.pricing-item small {
+  font-size: 0.92rem;
+  color: rgba(75, 58, 53, 0.72);
+}
+
+.pricing-details {
+  margin-top: 24px;
+}
+
+.pricing-details p {
+  margin: 9px 0;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.pricing-note {
+    font-size: 0.75rem;
+    color: rgba(75, 58, 53, 0.55);
+    margin-top: 22px;
+    line-height: 1.5;
+}
+
+.pricing h2 {
+    font-size: 2.6rem;
+    color: var(--rose);
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card {
+    padding: 28px 24px;
+  }
+}
+
 .featured-section {
   background: var(--white);
 }
@@ -198,6 +296,16 @@ h1 {
     text-align: center;
     padding: 90px 8%;
 }
+
+.how-it-works .eyebrow {
+    text-align: center;
+}
+
+.how-it-works h2 {
+    text-align: center;
+}
+
+
 
 .steps {
     display: grid;
@@ -488,6 +596,7 @@ h1 {
     padding: 70px 22px;
   }
 }
+
 
 .gallery-page {
   padding: 60px 8% 100px;
